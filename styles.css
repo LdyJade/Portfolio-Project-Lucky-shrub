@@ -1,0 +1,142 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: rgb(133, 223, 168);
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+    background-color: rgb(128, 128, 128, 0.6);
+}
+  
+h1 ~p {
+    background-color: rgb(128, 128, 128, 0.6);
+}
+
+h2 {
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+h2~ p{
+    color: cornsilk;
+    background-color: rgb(128, 128, 128, 0.6);
+}
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+header > img:hover{
+    transform: rotate(360deg);
+    transition-duration: 2s;
+
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+button {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(248, 245, 245, 0.783);
+    border: 2px solid rgb(133, 223, 168);
+    border-radius: 5px;
+    float: right;
+}
+
+button:hover {
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0);
+    border-color: black;
+    border-radius: 30px;
+}
+
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+.container {
+    border: darkred;
+    margin: 2rem 1rem;
+    border-radius: 5px;
+}
+
+.container a{
+    padding: 1rem;
+    margin: 0 1rem;
+    text-align: center;
+    color: rgb(195, 22, 57);
+}
+
+.container a:hover{
+    background-color: cornsilk;
+    border-radius: 50px;
+    color: black;
+}
+
+.promotional {
+    background-image: url(lucky\ shrub\ promotional.webp);
+    background-repeat: repeat;
+    height: 20rem;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    border: black solid;
+    padding: 5px;
+    margin: 10px 5px;
+    color: rgb(0, 255, 221);
+    
+}
+.promotional:hover{
+    background-image: url(second\ promotional\ .jpeg);
+}
+
+.information article{
+    border: black solid 1px;
+    margin: 5px;
+    padding: 10px 20px
+}
+
+.design {
+    background-image: url(third\ promotional.jpeg);
+}
+
+.arrival {
+    background-image: url(lucky\ new\ design.jpeg);
+}
+
+.inquiries {
+    background-image: url(lucky\ inquiries.jpeg);
+}
