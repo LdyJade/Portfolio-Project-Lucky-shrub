@@ -135,6 +135,8 @@ footer div {
 
 .arrival {
     background-image: url(lucky\ new\ design.jpeg);
+    background-position: center;
+    background-size:cover;
 }
 
 .inquiries {
